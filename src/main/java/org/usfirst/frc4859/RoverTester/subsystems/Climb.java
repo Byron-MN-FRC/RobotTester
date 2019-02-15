@@ -88,6 +88,11 @@ public class Climb extends Subsystem {
 
     // Put methods for controlling this subsystem
     // here. Call these from Commands.
+    public WPI_TalonSRX getFeetMotor(){ return feetMotor; }
+
+    public void RunMotor(WPI_TalonSRX motor, double speed){
+        motor.set(speed);
+    }
 
 }
 

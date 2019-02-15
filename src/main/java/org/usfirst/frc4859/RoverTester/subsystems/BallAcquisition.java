@@ -78,6 +78,8 @@ public class BallAcquisition extends Subsystem {
 
     // Put methods for controlling this subsystem
     // here. Call these from Commands.
-
+    public Spark getBallMotor(){ return ballMotor; }
+    public void RunMotor(Spark motor, double speed){
+        motor.set(speed);}
 }
 

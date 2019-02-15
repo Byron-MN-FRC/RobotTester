@@ -72,6 +72,9 @@ public class Catapult extends Subsystem {
 
     // Put methods for controlling this subsystem
     // here. Call these from Commands.
+    public Talon getCataputMotor(){ return catapultMotor; }
 
+    public void RunMotor(Talon motor, double speed){
+        motor.set(speed);}
 }
 
