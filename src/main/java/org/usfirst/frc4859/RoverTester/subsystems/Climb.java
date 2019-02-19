@@ -97,12 +97,12 @@ public class Climb extends Subsystem {
     }
     public void deploykickStand(){
         System.out.println("deploykickStand");
-        kickStandSolenoid.set(Value.kForward);
+        kickStandSolenoid.set(Value.kReverse);
     }
 
      public void retractkickstand(){
         System.out.println("retractkickStand");
-        kickStandSolenoid.set(Value.kReverse);
+        kickStandSolenoid.set(Value.kForward);
     }
     public void deploygravityshifter(){
         System.out.println("deploygravityshifter");
