@@ -43,7 +43,7 @@ public class RetractBallPiston extends Command {
     // Called repeatedly when this Command is scheduled to run
     @Override
     protected void execute() {
-        System.out.println("retractpiston");
+        System.out.println("Retractballpiston");
         Robot.ballAcquisition.RetractBallPiston();
     }
 

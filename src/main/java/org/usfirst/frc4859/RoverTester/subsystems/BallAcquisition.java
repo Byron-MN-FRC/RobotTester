@@ -84,12 +84,12 @@ public class BallAcquisition extends Subsystem {
         motor.set(speed);}
      
         public void DeployBallPiston(){
-            System.out.println("deployballpiston");
+           //System.out.println("deployballpiston");
            ballPiston.set(Value.kForward);
             }
        
         public void RetractBallPiston(){
-            System.out.println("retractballpiston");
+            //System.out.println("retractballpiston");
             ballPiston.set(Value.kReverse);
         }
 }
