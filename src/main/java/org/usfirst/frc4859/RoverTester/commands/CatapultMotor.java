@@ -48,7 +48,7 @@ public class CatapultMotor extends Command {
     // Called repeatedly when this Command is scheduled to run
     @Override
     protected void execute() {
-        Robot.catapult.RunMotor(Robot.catapult.getCataputMotor(), m_Speed);
+        Robot.catapult.RunMotor(Robot.catapult.getCatapultMotor(), m_Speed);
     }
 
     // Make this return true when this Command no longer needs to run execute()
@@ -60,7 +60,7 @@ public class CatapultMotor extends Command {
     // Called once after isFinished returns true
     @Override
     protected void end() {
-        Robot.catapult.RunMotor(Robot.catapult.getCataputMotor(), 0.0);
+        Robot.catapult.RunMotor(Robot.catapult.getCatapultMotor(), 0.0);
     }
 
     // Called when another command which requires one or more of the same

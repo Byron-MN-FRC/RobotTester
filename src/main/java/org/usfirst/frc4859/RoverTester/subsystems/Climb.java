@@ -96,20 +96,20 @@ public class Climb extends Subsystem {
         motor.set(speed);
     }
     public void deploykickStand(){
-        System.out.println("deploykickStand");
+        //System.out.println("deploykickStand");
         kickStandSolenoid.set(Value.kReverse);
     }
 
      public void retractkickstand(){
-        System.out.println("retractkickStand");
+        //System.out.println("retractkickStand");
         kickStandSolenoid.set(Value.kForward);
     }
     public void deploygravityshifter(){
-        System.out.println("deploygravityshifter");
+       //System.out.println("deploygravityshifter");
         gravityShifterSolenoid.set(Value.kForward);
     }
     public void retractgravityshifter(){
-        System.out.println("retractgravityshifter");
+        //System.out.println("retractgravityshifter");
         gravityShifterSolenoid.set(Value.kReverse);
     }
 
