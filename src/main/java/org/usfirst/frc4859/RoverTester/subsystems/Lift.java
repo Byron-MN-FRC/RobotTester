@@ -71,7 +71,7 @@ public class Lift extends Subsystem {
     // Put methods for controlling this subsystem
     // here. Call these from Commands.
     public void driveWithXbox(Joystick pJoystick){
-        double y = 0 - pJoystick.getRawAxis(1) / 10;
+        double y = 0 - pJoystick.getRawAxis(1) / 3;
 
         liftMotor.set(ControlMode.PercentOutput, y);
         
